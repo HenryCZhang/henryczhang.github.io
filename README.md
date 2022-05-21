@@ -16,13 +16,13 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ## 🛠 Installation and Setup Instructions
 
-1. Installation: `npm install`
+1. Installation: `yarn`
 
-2. In the project directory, you can run: `npm start`
+2. In the project directory, you can run: `yarn run start`
 
 ## Built With
 
-My personal portfolio <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
@@ -31,7 +31,6 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
-- Vercel
 
 ## Features
 
