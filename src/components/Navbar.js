@@ -16,6 +16,8 @@ import { CgFileDocument } from "react-icons/cg";
 import { BsFileEarmarkMusic } from "react-icons/bs";
 import useSound from "use-sound";
 import LofiSound from "../Assets/Sound/lofi.mp3";
+import ReactTooltip from "react-tooltip";
+import wechatContact from "../Assets/wechatContact.JPG";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -130,15 +132,22 @@ function NavBar() {
               >
                 <FaLinkedinIn />
               </a>
-              <a
-                href="weixin://dl/chat?henry137589"
+              <div
                 className="nav-icons"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillWechat />
-              </a>
+                <AiFillWechat data-tip data-for="wechat"/>
+              </div>
             </div>
+            <ReactTooltip
+              id="wechat"
+              fontSize="large"
+              backgroundColor="#c770f0"
+              place="bottom"
+            >
+              <img style={{width:"20rem"}} src={wechatContact} />
+            </ReactTooltip>
           </Nav>
         </Navbar.Collapse>
       </Container>
