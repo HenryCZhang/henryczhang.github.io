@@ -31,9 +31,9 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
-              <h1 className="heading-name">
+              <h1 >
                 I'M
-                <strong className="main-name"> Cao (Henry), Zhang</strong>
+                <strong className="main-name" style={{fontSize:"60px"}}> Cao (Henry), Zhang</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

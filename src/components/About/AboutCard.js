@@ -10,15 +10,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Zhang Cao </span>
-            from <span className="purple"> Jinhua, China.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra. I consider myself an easy-going and cooperative person who
-            deeply cares about building professional long-term relationships. I
-            am a results-oriented Software Engineer comfortable switching
-            between architecture, design and implementation. Experienced at
-            working in teams or self-directed environment. Eager to learn and
-            contribute programming expertise to development projects.
+            {/* Hi Everyone, I am <span className="purple">Cao (Henry) Zhang </span>
+            from 
+            <span className="purple"> Jinhua, China.</span> */}
+            I consider myself an easy-going and co-operative person who
+            deeply cares about building professional long-term relationships.
+            I’m currently pursuing my Software Engineering Bachelor degree and I specialize in building (and occasionally designing) exceptional digital experiences.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

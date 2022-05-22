@@ -18,23 +18,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I’m currently pursuing my Bachelor of Software Engineering degree at <i><b className="purple">Western University, Canada</b></i> 
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, HTML, and Java. </b>
+                <b className="purple"> Javascript, HTML, CSS and Java. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Full Stack Web & Mobile Technologies and Products </b>
+                </i> and
                 also in areas related to{" "}
+                <i>
                 <b className="purple">
-                  Deep Learning and AI.
+                  Business Analytics.
                 </b>
-              </i>
+                </i>
+          
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
