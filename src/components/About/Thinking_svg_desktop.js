@@ -73,7 +73,7 @@ function AnimatedBubbleLeft() {
   const animatedBubbleLeftStyle = useSpring({
     loop: { reverse: true },
     from: { scale: 0.2, rotate: "-20deg" },
-    to: { scale: 0.8, rotate: "20deg" },
+    to: { scale: 0.6, rotate: "20deg" },
     config: {
       friction: 40,
     },
@@ -96,7 +96,7 @@ function AnimatedBubbleRight() {
   const animatedBubbleRightStyle = useSpring({
     loop: { reverse: true },
     from: { scale: 0.1, rotate: "0deg" },
-    to: { scale: 1, rotate: "-10deg" },
+    to: { scale: 0.9, rotate: "-10deg" },
     config: {
       friction: 40,
     },

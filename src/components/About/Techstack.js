@@ -1,16 +1,15 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
-import { BsWordpress } from "react-icons/bs";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiGit,
   DiAngularSimple,
 } from "react-icons/di";
-import { FaJava } from "react-icons/fa";
-import { SiPytorch, SiTensorflow, SiFirebase, SiIonic } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
+import { FaJava, FaLinux } from "react-icons/fa";
+import { SiMysql, SiFirebase, SiIonic, SiCisco } from "react-icons/si";
 import ReactTooltip from "react-tooltip";
 
 function Techstack() {
@@ -19,11 +18,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="js">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="java">
-        <FaJava />
-      </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="node">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="java">
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="react">
         <DiReact />
@@ -31,21 +30,28 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="angular">
         <DiAngularSimple />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="wordpress">
-        <BsWordpress />
-      </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="ionic">
         <SiIonic />
       </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="cpp">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="github">
-        <DiGit />
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="mysql">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="firebase">
         <SiFirebase />
       </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="github">
+        <AiFillGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="cpp">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="linux">
+        <FaLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" data-tip data-for="cisco">
+        <SiCisco />
+      </Col>
+      
       <ReactTooltip id="react" fontSize="large" backgroundColor="#c770f0">
       <span style={{ fontSize: "large" }}>React</span>
       </ReactTooltip>
@@ -67,8 +73,8 @@ function Techstack() {
       <ReactTooltip id="cpp" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>C++</span>
       </ReactTooltip>
-      <ReactTooltip id="wordpress" fontSize="large" backgroundColor="#c770f0">
-        <span style={{ fontSize: "large" }}>Wordpress</span>
+      <ReactTooltip id="mysql" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>MYSQL</span>
       </ReactTooltip>
       <ReactTooltip id="firebase" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Firebase</span>
@@ -81,6 +87,12 @@ function Techstack() {
       </ReactTooltip>
       <ReactTooltip id="postman" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Postman</span>
+      </ReactTooltip>
+      <ReactTooltip id="linux" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Linux</span>
+      </ReactTooltip>
+      <ReactTooltip id="cisco" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Cisco</span>
       </ReactTooltip>
     </Row>
   );
