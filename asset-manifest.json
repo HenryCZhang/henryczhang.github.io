@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62ab0600.chunk.css",
+    "main.js": "/static/js/main.63724087.chunk.js",
+    "main.js.map": "/static/js/main.63724087.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.85518e3c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.85518e3c.js.map",
+    "static/css/2.5dfbe09b.chunk.css": "/static/css/2.5dfbe09b.chunk.css",
+    "static/js/2.33039e1f.chunk.js": "/static/js/2.33039e1f.chunk.js",
+    "static/js/2.33039e1f.chunk.js.map": "/static/js/2.33039e1f.chunk.js.map",
+    "static/js/3.c43ec6f6.chunk.js": "/static/js/3.c43ec6f6.chunk.js",
+    "static/js/3.c43ec6f6.chunk.js.map": "/static/js/3.c43ec6f6.chunk.js.map",
+    "static/js/4.a50a2980.chunk.js": "/static/js/4.a50a2980.chunk.js",
+    "static/js/4.a50a2980.chunk.js.map": "/static/js/4.a50a2980.chunk.js.map",
+    "static/js/5.40e39e63.chunk.js": "/static/js/5.40e39e63.chunk.js",
+    "static/js/5.40e39e63.chunk.js.map": "/static/js/5.40e39e63.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.5dfbe09b.chunk.css.map": "/static/css/2.5dfbe09b.chunk.css.map",
+    "static/css/main.62ab0600.chunk.css.map": "/static/css/main.62ab0600.chunk.css.map",
+    "static/js/2.33039e1f.chunk.js.LICENSE.txt": "/static/js/2.33039e1f.chunk.js.LICENSE.txt",
+    "static/js/3.c43ec6f6.chunk.js.LICENSE.txt": "/static/js/3.c43ec6f6.chunk.js.LICENSE.txt",
+    "static/media/AutoGo.895eeb8c.png": "/static/media/AutoGo.895eeb8c.png",
+    "static/media/HenryResume.e54940d5.pdf": "/static/media/HenryResume.e54940d5.pdf",
+    "static/media/THDay.2b6a6c77.png": "/static/media/THDay.2b6a6c77.png",
+    "static/media/style.css": "/static/media/pre.d4812f51.svg",
+    "static/media/lofi.cff97b65.mp3": "/static/media/lofi.cff97b65.mp3",
+    "static/media/logo.651ab1ee.png": "/static/media/logo.651ab1ee.png",
+    "static/media/meDark.f41b4dd4.jpg": "/static/media/meDark.f41b4dd4.jpg",
+    "static/media/sortingWebsite.58f26697.png": "/static/media/sortingWebsite.58f26697.png",
+    "static/media/wechatContact.f4773fd6.JPG": "/static/media/wechatContact.f4773fd6.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85518e3c.js",
+    "static/css/2.5dfbe09b.chunk.css",
+    "static/js/2.33039e1f.chunk.js",
+    "static/css/main.62ab0600.chunk.css",
+    "static/js/main.63724087.chunk.js"
+  ]
+}
