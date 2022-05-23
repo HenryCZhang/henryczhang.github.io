@@ -9,11 +9,13 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
 import wechatContact from "../../Assets/wechatContact.JPG";
+import Fade from 'react-reveal/Fade';
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
+      <Fade bottom>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
@@ -38,7 +40,6 @@ function Home2() {
                   Business Analytics.
                 </b>
                 </i>
-          
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -63,6 +64,8 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+      </Fade>
+      <Fade bottom>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -111,6 +114,7 @@ function Home2() {
             </ul>
           </Col>
         </Row>
+        </Fade>
       </Container>
     </Container>
   );

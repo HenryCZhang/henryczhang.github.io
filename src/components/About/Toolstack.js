@@ -4,37 +4,53 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiXcode
+  SiXcode,
 } from "react-icons/si";
 import { AiFillAndroid } from "react-icons/ai";
 import { BsWordpress } from "react-icons/bs";
 import { FaUnity } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
+import Fade from "react-reveal/Fade";
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="wordpress">
-        <BsWordpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="vsc">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="android">
-        <AiFillAndroid />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="xcode">
-        <SiXcode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="postman">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="heroku">
-        <SiHeroku />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" data-tip data-for="unity">
-        <FaUnity />
-      </Col>
+    <>
+      <Fade bottom>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col
+            xs={4}
+            md={2}
+            className="tech-icons"
+            data-tip
+            data-for="wordpress"
+          >
+            <BsWordpress />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="vsc">
+            <SiVisualstudiocode />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="android">
+            <AiFillAndroid />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="xcode">
+            <SiXcode />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="postman">
+            <SiPostman />
+          </Col>
+        </Row>
+      </Fade>
+
+      <Fade bottom>
+        <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="heroku">
+            <SiHeroku />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="unity">
+            <FaUnity />
+          </Col>
+        </Row>
+      </Fade>
 
       <ReactTooltip id="wordpress" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>WordPress</span>
@@ -57,7 +73,7 @@ function Toolstack() {
       <ReactTooltip id="unity" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Unity Engine</span>
       </ReactTooltip>
-    </Row>
+    </>
   );
 }
 
