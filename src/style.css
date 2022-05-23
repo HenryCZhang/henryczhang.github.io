@@ -625,23 +625,25 @@ html {
   box-shadow: none !important;
 }
 .about-section1 {
-  height: 100vh;
+  margin-top: 40px;
+  justify-content: center;
+  /* padding: 5px; */
 }
 .about-section1-text{
-  justify-content: "center";
-  padding-top: "30px";
-  padding-bottom: "50px";
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .about-section2 {
   margin-top: 5em;
   margin-bottom: 0;
-  height: 80vh;
+  height: 100vh;
 }
 @media (max-width: 375px) {
   .about-section1-text{
-    justify-content: "center";
-    padding-top: "30px";
-    padding-bottom: "0px";
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
   }
   .about-section2 {
     margin-top: 50em;

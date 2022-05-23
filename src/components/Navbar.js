@@ -143,10 +143,10 @@ function NavBar() {
             <ReactTooltip
               id="wechat"
               fontSize="large"
-              backgroundColor="#c770f0"
+              backgroundColor="none"
               place="bottom"
             >
-              <img style={{width:"20rem"}} src={wechatContact} />
+              <img style={{width:"15rem"}} src={wechatContact} />
             </ReactTooltip>
           </Nav>
         </Navbar.Collapse>

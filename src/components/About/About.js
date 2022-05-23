@@ -22,7 +22,7 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row className="about-section1" style={{ justifyContent: "center", padding: "5px" }}>
+        <Row className="about-section1" >
           <Col
             md={6}
             className="about-section1-text"

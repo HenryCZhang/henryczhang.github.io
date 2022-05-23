@@ -7,6 +7,8 @@ import {
   AiFillWechat
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import ReactTooltip from "react-tooltip";
+import wechatContact from "../../Assets/wechatContact.JPG";
 
 function Home2() {
   return (
@@ -89,15 +91,23 @@ function Home2() {
                 </a>
               </li>
               <li className="social-icons">
-                <a
+                <div
                   href="weixin://dl/chat?henry137589"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillWechat />
-                </a>
+                  <AiFillWechat data-tip data-for="wechat"/>
+                </div>
               </li>
+              <ReactTooltip
+              id="wechat"
+              fontSize="large"
+              backgroundColor="none"
+              place="bottom"
+            >
+              <img style={{width:"15rem"}} src={wechatContact} />
+            </ReactTooltip>
             </ul>
           </Col>
         </Row>
