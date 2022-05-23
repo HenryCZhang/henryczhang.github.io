@@ -11,9 +11,12 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaJava, FaLinux } from "react-icons/fa";
 import { SiMysql, SiFirebase, SiIonic, SiCisco } from "react-icons/si";
 import ReactTooltip from "react-tooltip";
+import Fade from 'react-reveal/Fade';
 
 function Techstack() {
   return (
+    <>
+    <Fade bottom>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="js">
         <DiJavascript1 />
@@ -30,6 +33,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="angular">
         <DiAngularSimple />
       </Col>
+      </Row>
+      </Fade>
+
+      <Fade bottom>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="ionic">
         <SiIonic />
       </Col>
@@ -45,12 +53,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="cpp">
         <CgCPlusPlus />
       </Col>
+      </Row>
+      </Fade>
+
+
+      <Fade bottom>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="linux">
         <FaLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons" data-tip data-for="cisco">
         <SiCisco />
       </Col>
+      </Row>
+      </Fade>
+
       
       <ReactTooltip id="react" fontSize="large" backgroundColor="#c770f0">
       <span style={{ fontSize: "large" }}>React</span>
@@ -94,7 +111,8 @@ function Techstack() {
       <ReactTooltip id="cisco" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Cisco</span>
       </ReactTooltip>
-    </Row>
+    {/* </Row> */}
+    </>
   );
 }
 

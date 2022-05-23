@@ -7,6 +7,7 @@ import Toolstack from "./Toolstack";
 import ThinkingIconDesktop from "./Thinking_svg_desktop";
 import ThinkingIconMobile from "./Thinking_svg_mobile";
 import { createMedia } from "@artsy/fresnel";
+import Fade from "react-reveal/Fade";
 
 const { MediaContextProvider, Media } = createMedia({
   breakpoints: {
@@ -22,22 +23,18 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row className="about-section1" >
-          <Col
-            md={6}
-            className="about-section1-text"
-          >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
-            </h1>
+        <Row className="about-section1">
+          <Col md={6} className="about-section1-text">
+            <Fade top duration={1500}>
+              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+                Know Who <strong className="purple">I'M</strong>
+              </h1>
+            </Fade>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            className="about-img"
-          >
-            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
-            <MediaContextProvider>
+          <Col md={5} className="about-img">
+            <Fade delay={200} duration={4000}>
+              <MediaContextProvider>
                 <Media greaterThan="sm">
                   <ThinkingIconDesktop />
                 </Media>
@@ -45,17 +42,23 @@ function About() {
                   <ThinkingIconMobile />
                 </Media>
               </MediaContextProvider>
+            </Fade>
           </Col>
         </Row>
+
         <div className="about-section2">
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1>
-        <Techstack />
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
+          <Fade bottom>
+            <h1 className="project-heading">
+              Professional <strong className="purple">Skillset </strong>
+            </h1>
+          </Fade>
+          <Techstack />
+          <Fade bottom>
+            <h1 className="project-heading">
+              <strong className="purple">Tools</strong> I use
+            </h1>
+          </Fade>
+          <Toolstack />
         </div>
       </Container>
     </Container>

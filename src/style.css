@@ -305,13 +305,14 @@ html {
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  height: 100vh;
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
-  height: 100vh;
+
 }
 @media (max-width: 375px) {
   .home-content {
@@ -381,7 +382,6 @@ html {
 }
 
 .home-about-section {
-  height: 100vh;
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
@@ -505,16 +505,8 @@ html {
   text-align: center !important;
 }
 
-.footer-body {
-  text-align: center !important;
-}
-
 @media (max-width: 767px) {
   .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
     text-align: center !important;
   }
 }
@@ -627,7 +619,6 @@ html {
 .about-section1 {
   margin-top: 40px;
   justify-content: center;
-  /* padding: 5px; */
 }
 .about-section1-text{
   justify-content: center;
@@ -637,7 +628,6 @@ html {
 .about-section2 {
   margin-top: 5em;
   margin-bottom: 0;
-  height: 100vh;
 }
 @media (max-width: 375px) {
   .about-section1-text{

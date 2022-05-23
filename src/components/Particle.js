@@ -58,7 +58,7 @@ function Particle() {
             default: "bounce",
           },
           random: false,
-          speed: 0.7,
+          speed: 0.3,
           straight: false,
         },
         number: {
@@ -66,7 +66,7 @@ function Particle() {
             enable: true,
             area: 800,
           },
-          value: 5,
+          value: 7,
         },
         opacity: {
           value: 0.7,
