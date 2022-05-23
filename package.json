@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://henryczhang.github.io/Portfolio_Website/",
+  "homepage": "https://henryczhang.github.io/Portfolio_Website/index.html",
   "dependencies": {
     "@artsy/fresnel": "^3.5.0",
     "@testing-library/jest-dom": "^5.11.6",
