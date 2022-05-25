@@ -427,7 +427,7 @@ html {
 
 .nav-icons {
   padding: 0px 10px;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   margin-top:5px;
   margin-left:10px;
   margin-right:10px;
@@ -440,8 +440,9 @@ html {
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
   border-radius: 50%;
-  box-shadow: 0px 0px 40px -2px #cd5ff8;
+  box-shadow: 0px 0px 40px 0px #cd5ff8;
   transition: 1s ease;
+  transform: translateY(-5px);
 }
 
 .home-social-icons {
@@ -617,13 +618,13 @@ html {
   box-shadow: none !important;
 }
 .about-section1 {
-  margin-top: 40px;
+  margin-top: 20px;
   justify-content: center;
 }
 .about-section1-text{
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 .about-section2 {
   margin-top: 5em;
@@ -703,8 +704,8 @@ html {
 }
 
 .about-img {
-  margin-top: 0px !important;
-  padding-bottom:10em;
+  /* margin-top: 0px !important; */
+  /* padding-bottom:100em; */
 }
 @media (min-width: 1024px) {
   .about-img {

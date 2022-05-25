@@ -55,7 +55,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             but you can manage yourself 👍"{" "}
           </p>
-          <footer className="blockquote-footer">Cao Zhang</footer>
+          <footer className="blockquote-footer">Cao (Henry), Zhang</footer>
           </animated.div>
         </blockquote>
       </Card.Body>
