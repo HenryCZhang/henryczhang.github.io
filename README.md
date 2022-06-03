@@ -7,6 +7,10 @@
 <div align="center">
   <img alt="Demo" src="./Images/device-view.png" />
 </div>
+<h2 align="center">
+View Live Demo 🚀 <br/>
+ https://henryczhang.github.io/
+</h2>
 
 <br/>
 
