@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import autoGo from "../../Assets/Projects/AutoGo.png";
 import treasureHunter from "../../Assets/Projects/THDay.png";
 import sortingAlgorithm from "../../Assets/Projects/sortingWebsite.png";
+import motif from "../../Assets/Projects/motif.png";
+import bridgeSHM from "../../Assets/Projects/bridgeSHM.jpg"
 import Fade from "react-reveal/Fade";
 import { useSpring, animated } from "react-spring";
 
@@ -59,6 +61,18 @@ function Projects() {
                 title="AutoGo"
                 description="AutoGo is a user-freindly automotive rental and leasing mobile app. It's a showcase of Ionic App Platform technologies, including Ionic Framework, Capacitor and miscellaneous plugins."
                 githubLink="https://github.com/HenryCZhang/AutoGo-Angular"
+              />
+            </Col>
+          </Row>
+
+          <Row>
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={motif}
+                isOnlyGithub={true}
+                title="Motif"
+                description="Motif is a simple motion sensor data recorder for iPhone. One application of this app is structural health monitoring (SHM) in civil engineering."
+                githubLink="https://github.com/HenryCZhang/Motif"
               />
             </Col>
           </Row>
