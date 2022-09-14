@@ -1,16 +1,15 @@
 <h2 align="center">
-  Portfolio Website
+  My Portfolio Website
 </h2>
-<h3 align="center">
-  I used the website template from https://github.com/soumyajit4419/Portfolio
-</h3>
+<h2 align="center">
+View Live Demo 🚀 https://henryczhang.github.io/
+</h2>
 <div align="center">
   <img alt="Demo" src="./Images/device-view.png" />
 </div>
-<h2 align="center">
-View Live Demo 🚀 <br/>
- https://henryczhang.github.io/
-</h2>
+<h3 align="center">
+  I used the website template from https://github.com/soumyajit4419/Portfolio
+</h3>
 
 <br/>
 
