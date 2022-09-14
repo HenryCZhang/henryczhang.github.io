@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e0255e25.chunk.css",
-    "main.js": "/static/js/main.f0ab08bc.chunk.js",
-    "main.js.map": "/static/js/main.f0ab08bc.chunk.js.map",
+    "main.js": "/static/js/main.0c2f4ca4.chunk.js",
+    "main.js.map": "/static/js/main.0c2f4ca4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.85518e3c.js",
     "runtime-main.js.map": "/static/js/runtime-main.85518e3c.js.map",
     "static/css/2.5dfbe09b.chunk.css": "/static/css/2.5dfbe09b.chunk.css",
@@ -22,12 +22,11 @@
     "static/media/AutoGo.895eeb8c.png": "/static/media/AutoGo.895eeb8c.png",
     "static/media/HenryResume.c9c4fc7a.pdf": "/static/media/HenryResume.c9c4fc7a.pdf",
     "static/media/THDay.2b6a6c77.png": "/static/media/THDay.2b6a6c77.png",
-    "static/media/bridgeSHM.3fa1bc2b.jpg": "/static/media/bridgeSHM.3fa1bc2b.jpg",
     "static/media/style.css": "/static/media/pre.d4812f51.svg",
+    "static/media/iot.0a9f1872.png": "/static/media/iot.0a9f1872.png",
     "static/media/lofi.cff97b65.mp3": "/static/media/lofi.cff97b65.mp3",
-    "static/media/logo.651ab1ee.png": "/static/media/logo.651ab1ee.png",
     "static/media/me.59f4b5c1.png": "/static/media/me.59f4b5c1.png",
-    "static/media/motif.45907596.png": "/static/media/motif.45907596.png",
+    "static/media/motif.10067d2b.png": "/static/media/motif.10067d2b.png",
     "static/media/sortingWebsite.58f26697.png": "/static/media/sortingWebsite.58f26697.png",
     "static/media/wechatContact.f4773fd6.JPG": "/static/media/wechatContact.f4773fd6.JPG"
   },
@@ -36,6 +35,6 @@
     "static/css/2.5dfbe09b.chunk.css",
     "static/js/2.643bfbd4.chunk.js",
     "static/css/main.e0255e25.chunk.css",
-    "static/js/main.f0ab08bc.chunk.js"
+    "static/js/main.0c2f4ca4.chunk.js"
   ]
 }
