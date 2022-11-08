@@ -8,10 +8,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-"https://github.com/HenryCZhang/Resume/raw/master/Henry%20Resume%20D1.pdf"
-// "https://luxscious.github.io/git-cloud-storage/Gabriella_Gerges_Resume.pdf"
-
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 

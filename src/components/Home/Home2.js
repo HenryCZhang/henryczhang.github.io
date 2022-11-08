@@ -32,7 +32,7 @@ function Home2() {
                 I’m currently pursuing my Bachelor of Software Engineering
                 degree at{" "}
                 <i>
-                  <b className="purple">Western University, Canada</b>
+                  <b className="purple">Western University, Canada.</b>
                 </i>
                 <br />
                 <br />I am fluent in classics like
@@ -41,7 +41,7 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                My field of Interest's are building new &nbsp;
+                My fields of Interest are building new &nbsp;
                 <i>
                   <b className="purple">
                     Full Stack Web & Mobile Technologies and Products{" "}
@@ -53,7 +53,7 @@ function Home2() {
                 </i>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
+                Whenever possible, I also apply my passion for developing software
                 products with{" "}
                 <i>
                   <b className="purple">Node.js</b>
@@ -67,7 +67,7 @@ function Home2() {
                 </i>
                 &nbsp; like
                 <i>
-                  <b className="purple"> React.js and Angular.js</b>
+                  <b className="purple"> React.js and Angular.js.</b>
                 </i>
               </p>
             </Col>

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../Assets/logo.png"; //change Logo
 import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 import { FaLinkedinIn } from "react-icons/fa";

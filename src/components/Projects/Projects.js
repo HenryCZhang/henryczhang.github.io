@@ -6,7 +6,7 @@ import autoGo from "../../Assets/Projects/AutoGo.png";
 import treasureHunter from "../../Assets/Projects/THDay.png";
 import sortingAlgorithm from "../../Assets/Projects/sortingWebsite.png";
 import motif from "../../Assets/Projects/motif.png";
-import bridgeSHM from "../../Assets/Projects/bridgeSHM.jpg"
+import iot from "../../Assets/Projects/iot.png"
 import Fade from "react-reveal/Fade";
 import { useSpring, animated } from "react-spring";
 
@@ -69,13 +69,25 @@ function Projects() {
           <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={motif}
+                imgCenter= "center"
+                imgWidth="80%"
                 isOnlyGithub={true}
                 title="Motif"
                 description="Motif is a simple motion sensor data recorder for iPhone. One application of this app is structural health monitoring (SHM) in civil engineering."
                 githubLink="https://github.com/HenryCZhang/Motif"
               />
             </Col>
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={iot}
+                isOnlyGithub={true}
+                title="BIM - IOT"
+                description="This project uses Arduino board to collect sensor data and store it on the MySQL database. This is a part of the Structure Monitoring with BIM and IoT: The Case Study of a Bridge Beam Model methodology. The goal is to establish a connection between an IoT system and a BIM model for monitoring the deflection of a bridge beam at the centreline using a schematic scale model reproduced in the laboratory and modelled in BIM."
+                githubLink="https://github.com/HenryCZhang/Arduino-IOT-Sensor-Data-to-MYSQL"
+              />
+            </Col>
           </Row>
+
         </Fade>
       </Container>
     </Container>

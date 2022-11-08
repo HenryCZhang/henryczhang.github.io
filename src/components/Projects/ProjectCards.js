@@ -10,7 +10,10 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 function ProjectCards(props) {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <div style={{textAlign: props.imgCenter}}>
+      <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{width: props.imgWidth}}/>
+      </div>
+  
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
