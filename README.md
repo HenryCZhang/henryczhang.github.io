@@ -19,7 +19,7 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ## 🛠 Installation and Setup Instructions
 
-### Reomve yarn.lock
+### Use Node version 6.14.15 !!!
 
 ### Use NPM
 
