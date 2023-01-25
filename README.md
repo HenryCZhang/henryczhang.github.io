@@ -19,6 +19,16 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ## 🛠 Installation and Setup Instructions
 
+### Reomve yarn.lock
+
+### Use NPM
+
+1. NPM install
+
+2. NPM start
+
+### Use yarn
+
 1. Installation: `yarn`
 
 2. In the project directory, you can run: `yarn run start`
