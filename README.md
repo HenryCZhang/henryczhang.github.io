@@ -21,11 +21,23 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 
 ### Use Node version 6.14.15 !!!
 
+```yaml
+nvm use 14.18.1  
+```
+
 ### Use NPM
 
 1. NPM install
 
+```yaml
+npm install
+```
+
 2. NPM start
+
+```yaml
+npm start
+```
 
 ### Use yarn
 
