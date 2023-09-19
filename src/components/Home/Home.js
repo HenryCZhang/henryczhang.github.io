@@ -42,7 +42,7 @@ function Home() {
               <animated.div style={animated1}>
               <h1 >
                 I'M
-                <strong className="main-name" style={{fontSize:"60px"}}> Cao (Henry), Zhang</strong>
+                <strong className="main-name" style={{fontSize:"60px"}}> Henry (Cao), Zhang</strong>
               </h1>
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />

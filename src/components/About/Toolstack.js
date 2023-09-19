@@ -4,10 +4,13 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiXcode,
+  SiGooglecloud,
+  SiDocker,
+  SiJirasoftware,
+  SiKubernetes,
+  SiMysql
 } from "react-icons/si";
 import { AiFillAndroid } from "react-icons/ai";
-import { BsWordpress } from "react-icons/bs";
 import { FaUnity } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
 import Fade from "react-reveal/Fade";
@@ -17,34 +20,32 @@ function Toolstack() {
     <>
       <Fade bottom>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col
-            xs={4}
-            md={2}
-            className="tech-icons"
-            data-tip
-            data-for="wordpress"
-          >
-            <BsWordpress />
-          </Col>
           <Col xs={4} md={2} className="tech-icons" data-tip data-for="vsc">
             <SiVisualstudiocode />
           </Col>
-          <Col xs={4} md={2} className="tech-icons" data-tip data-for="android">
-            <AiFillAndroid />
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="gcp">
+            <SiGooglecloud />
           </Col>
-          <Col xs={4} md={2} className="tech-icons" data-tip data-for="xcode">
-            <SiXcode />
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="docker">
+            <SiDocker />
           </Col>
-          <Col xs={4} md={2} className="tech-icons" data-tip data-for="postman">
-            <SiPostman />
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="kubernetes">
+            <SiKubernetes />
           </Col>
+     
         </Row>
       </Fade>
 
       <Fade bottom>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Col xs={4} md={2} className="tech-icons" data-tip data-for="heroku">
-            <SiHeroku />
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="mysql-workbench">
+            <SiMysql />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="jira-software">
+            <SiJirasoftware />
+          </Col>
+          <Col xs={4} md={2} className="tech-icons" data-tip data-for="postman">
+            <SiPostman />
           </Col>
           <Col xs={4} md={2} className="tech-icons" data-tip data-for="unity">
             <FaUnity />
@@ -52,23 +53,28 @@ function Toolstack() {
         </Row>
       </Fade>
 
-      <ReactTooltip id="wordpress" fontSize="large" backgroundColor="#c770f0">
-        <span style={{ fontSize: "large" }}>WordPress</span>
-      </ReactTooltip>
+    
       <ReactTooltip id="vsc" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Visual Studio Code</span>
       </ReactTooltip>
-      <ReactTooltip id="android" fontSize="large" backgroundColor="#c770f0">
-        <span style={{ fontSize: "large" }}>Android Studio</span>
+      <ReactTooltip id="gcp" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Google Cloud Platform</span>
       </ReactTooltip>
-      <ReactTooltip id="xcode" fontSize="large" backgroundColor="#c770f0">
-        <span style={{ fontSize: "large" }}>Xcode</span>
+      <ReactTooltip id="docker" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Docker</span>
+      </ReactTooltip>
+      <ReactTooltip id="kubernetes" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Kubernetes</span>
+      </ReactTooltip>
+
+      <ReactTooltip id="mysql-workbench" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Mysql Workbench</span>
+      </ReactTooltip>
+      <ReactTooltip id="jira-software" fontSize="large" backgroundColor="#c770f0">
+        <span style={{ fontSize: "large" }}>Jira Software</span>
       </ReactTooltip>
       <ReactTooltip id="postman" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Postman</span>
-      </ReactTooltip>
-      <ReactTooltip id="heroku" fontSize="large" backgroundColor="#c770f0">
-        <span style={{ fontSize: "large" }}>Heroku</span>
       </ReactTooltip>
       <ReactTooltip id="unity" fontSize="large" backgroundColor="#c770f0">
         <span style={{ fontSize: "large" }}>Unity Engine</span>

@@ -29,15 +29,17 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I’m currently pursuing my Bachelor of Software Engineering
+                I am currently pursuing my <i><b className="purple">Master of Information</b></i>{" "} 
+                degree at{" "}
+                <i>
+                  <b className="purple">Toronto University, Canada.</b>
+                </i>
+                <br />
+                <br />
+                I completed my <i><b className="purple">Bachelor of Software Engineering</b></i>{" "} 
                 degree at{" "}
                 <i>
                   <b className="purple">Western University, Canada.</b>
-                </i>
-                <br />
-                <br />I am fluent in classics like
-                <i>
-                  <b className="purple"> Javascript, HTML, CSS and Java. </b>
                 </i>
                 <br />
                 <br />
@@ -49,7 +51,12 @@ function Home2() {
                 </i>{" "}
                 and also in areas related to{" "}
                 <i>
-                  <b className="purple">Business Analytics.</b>
+                  <b className="purple">Business & Data Analytics.</b>
+                </i>
+                <br />
+                <br />I am fluent in classics like
+                <i>
+                  <b className="purple"> JavaScript (TypeScript), HTML, CSS, MySQL, and Java. </b>
                 </i>
                 <br />
                 <br />
@@ -62,12 +69,12 @@ function Home2() {
                 <i>
                   <b className="purple">
                     {" "}
-                    Modern Javascript Library and Frameworks
+                    Modern FS web dev library and frameworks
                   </b>
                 </i>
                 &nbsp; like
                 <i>
-                  <b className="purple"> React.js and Angular.js.</b>
+                  <b className="purple"> Next.js and Angular.js.</b>
                 </i>
               </p>
             </Col>
