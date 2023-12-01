@@ -420,8 +420,8 @@ html {
 }
 
 .nav-icons-container {
-  margin-right: 20px;
-  margin-left: 80px;
+  margin-right: 0px;
+  margin-left: 50px;
   display: flex;
 }
 
@@ -443,6 +443,18 @@ html {
   box-shadow: 0px 0px 40px 0px #cd5ff8;
   transition: 1s ease;
   transform: translateY(-5px);
+}
+
+.navbar-phone {
+  padding: 0px 10px;
+  /* padding-bottom: 5px; */
+  margin-top:12px;
+  margin-left:10px;
+  /* margin-right:10px; */
+  /* margin-top: 5px; */
+  color: white !important;
+  font-size: 1.1em !important;
+  font-weight: bold;
 }
 
 .home-social-icons {
@@ -481,6 +493,11 @@ html {
   color: #87209e;
   box-shadow: 0 0 5px #87209e;
   text-shadow: 0 0 2px #87209e;
+}
+
+.home2-bottom-contact{
+  font-size: large;
+  font-weight: bold;
 }
 
 .social-icons {
@@ -526,6 +543,7 @@ html {
 
 .blockquote-footer {
   color: #a588c0 !important;
+  margin-bottom: 10px;
 }
 /* --------- */
 /* Projects */

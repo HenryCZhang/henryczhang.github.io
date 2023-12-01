@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { GiCampCookingPot } from "react-icons/gi";
-import { MdSportsFootball } from "react-icons/md";
-import { BsFillFileMusicFill } from "react-icons/bs";
+import { PiSunHorizonBold } from "react-icons/pi";
+import { GiWeightLiftingUp } from "react-icons/gi";
+import { HiOutlineMusicalNote } from "react-icons/hi2";
 import { useSpring, animated } from "react-spring";
 
 function AboutCard() {
@@ -41,30 +41,29 @@ function AboutCard() {
             </p>
             <ul>
               <li className="about-activity">
-                <GiCampCookingPot /> Culinary
+                <PiSunHorizonBold /> Spirit Cultivation
               </li>
               <li className="about-activity">
-                <MdSportsFootball /> Fitness
+                <GiWeightLiftingUp /> Fitness
               </li>
               <li className="about-activity">
-                <BsFillFileMusicFill /> Music
+                <HiOutlineMusicalNote /> Music
               </li>
             </ul>
           </animated.div>
           <animated.div style={animated2}>
             <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-              "A plan is only useful if it can survive reality.{" "}
+              "In humility, value others above yourselves, not looking to your own interests but each of you to the interests of the others."{" "}
+            </p>
+            <footer className="blockquote-footer">Philippians 2:4</footer>
+            <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+            "Each of you should use whatever gift you have received to serve others, as faithful stewards of God’s grace in its various forms."{" "}
+            <footer className="blockquote-footer">Peter 4:10</footer>
             </p>
             <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-              And a future filled with unknowns is everyone’s reality."{" "}
+              "Forgetting what is behind and straining toward what is ahead, I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus."{" "}
             </p>
-            <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-              "A good plan doesn’t pretend this weren’t true;{" "}
-            </p>
-            <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
-              it embraces it and emphasizes room for error."{" "}
-            </p>
-            <footer className="blockquote-footer">Morgan Housel</footer>
+            <footer className="blockquote-footer">Philippians 3:14</footer>
           </animated.div>
         </blockquote>
       </Card.Body>

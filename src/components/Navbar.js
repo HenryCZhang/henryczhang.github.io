@@ -134,6 +134,13 @@ function NavBar() {
               >
                 <AiFillWechat data-tip data-for="wechat"/>
               </div>
+              <div
+                className="navbar-phone "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+(+1) 519-701-1804
+              </div>
             </div>
             <ReactTooltip
               id="wechat"
@@ -143,6 +150,7 @@ function NavBar() {
             >
               <img style={{width:"15rem"}} src={wechatContact} />
             </ReactTooltip>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -29,53 +29,37 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am currently pursuing my <i><b className="purple">Master of Information</b></i>{" "} 
-                degree at{" "}
-                <i>
-                  <b className="purple">Toronto University, Canada.</b>
-                </i>
+              Emerging expert in bridging the divide between technical and
+                non-technical teams. Proficient in blending IT acumen with
+                business insights to <b className="purple">optimize processes, drive strategic
+                decisions,</b> and <b className="purple">create human-centric solutions</b>. My mission is to
+                create an environment where technology <b className="purple">enhances the human
+                experience,</b> making businesses more <b className="purple">efficient</b> and{" "}
+                <b className="purple">customer-centric</b>.{" "}
                 <br />
                 <br />
-                I completed my <i><b className="purple">Bachelor of Software Engineering</b></i>{" "} 
+                Currently pursuing my{" "}
+                  <b className="purple">Master of Information</b>{" "}
                 degree at{" "}
-                <i>
-                  <b className="purple">Western University, Canada.</b>
-                </i>
+                  <b className="purple">Toronto University, Canada</b>.
+                <br />
+                <br />Completed my{" "}
+                  <b className="purple">Bachelor of Software Engineering</b>{" "}
+                degree at{" "}
+                  <b className="purple">Western University, Canada</b>.
                 <br />
                 <br />
                 My fields of Interest are building new &nbsp;
-                <i>
                   <b className="purple">
                     Full Stack Web & Mobile Technologies and Products{" "}
-                  </b>
-                </i>{" "}
+                  </b>{" "}
                 and also in areas related to{" "}
-                <i>
-                  <b className="purple">Business & Data Analytics.</b>
-                </i>
+                  <b className="purple">Business & Data Analytics</b>.
                 <br />
                 <br />I am fluent in classics like
-                <i>
-                  <b className="purple"> JavaScript (TypeScript), HTML, CSS, MySQL, and Java. </b>
-                </i>
-                <br />
-                <br />
-                Whenever possible, I also apply my passion for developing software
-                products with{" "}
-                <i>
-                  <b className="purple">Node.js</b>
-                </i>{" "}
-                and
-                <i>
                   <b className="purple">
                     {" "}
-                    Modern FS web dev library and frameworks
-                  </b>
-                </i>
-                &nbsp; like
-                <i>
-                  <b className="purple"> Next.js and Angular.js.</b>
-                </i>
+                    JavaScript (TypeScript), HTML, CSS, SQL, and Java</b>.{" "}
               </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -148,6 +132,8 @@ function Home2() {
                   </Media>
                 </MediaContextProvider>
               </ul>
+              <p className="home2-bottom-contact">(+1) 519-701-1804</p>
+              <p className="home2-bottom-contact">henry.hzc418@gmail.com</p>
             </Col>
           </Row>
         </Fade>

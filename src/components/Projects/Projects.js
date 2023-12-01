@@ -7,7 +7,8 @@ import treasureHunter from "../../Assets/Projects/THDay.png";
 import sortingAlgorithm from "../../Assets/Projects/sortingWebsite.png";
 import groops from "../../Assets/Projects/groops.png";
 import motif from "../../Assets/Projects/motif.png";
-import iot from "../../Assets/Projects/iot.png"
+import iot from "../../Assets/Projects/iot.png";
+import annaLibrary from "../../Assets/Projects/annaLibrary.png";
 import Fade from "react-reveal/Fade";
 import { useSpring, animated } from "react-spring";
 
@@ -31,24 +32,69 @@ function Projects() {
           </p>
         </animated.div>
         <Fade bottom duration={1200} delay={200}>
+          <h4
+            style={{
+              color: "white",
+              marginTop: "10px",
+              padding: "10px",
+              borderTop: "2px solid #c770f0",
+              borderBottom: "2px solid #c770f0",
+              display: "inline-block",
+            }}
+          >
+            Business Analytics Works
+          </h4>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={annaLibrary}
+                isPDFLink={true}
+                title="Anna's Library"
+                description={
+                  <div>
+                    <span style={{ color: "#c770f0", fontWeight: "bold" }}>
+                      System Analysis & Process Innovation
+                    </span>
+                    <br />
+                    Conducted a comprehensive systems analysis of Anna Library
+                    at King's University, utilizing BPMN and DFD modelling.
+                    Proposed innovative solutions, including automation and
+                    user-centric features, highlighting skills in business
+                    systems analysis and process innovation.
+                  </div>
+                }
+                pdfLink="https://drive.google.com/file/d/1z1oEq7Tvg3_Xi1eW018iStoc7ydDLpBN/view?usp=sharing"
+              />
+            </Col>
+          </Row>
+          <h4
+            style={{
+              color: "white",
+              padding: "10px",
+              borderTop: "2px solid #c770f0",
+              borderBottom: "2px solid #c770f0",
+              display: "inline-block",
+            }}
+          >
+            Software Engineering Works
+          </h4>
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={groops}
                 isGithub={true}
-                isDemo={true}
                 title="Groops"
                 description="Groops offers a diverse range of Asian groceries through an accessible online platform for individuals and organizations. Users can initiate group purchases and earn rewards, fostering community and convenience."
-                githubLink="https://github.com/GroopsWebDev/Groops-Ecommerce-Website"
+                githubLink="https://github.com/HenryCZhang/GroopsApiTest"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={sortingAlgorithm}
-                isGithub={true}
+                isGithubRight={true}
                 isDemo={true}
                 title="Sorting Algorithms Playground"
-                description="Sorting Algorithms Playground is an educational website, gamifying the learning experience to aid programmers in comprehending sorting algorithms effectively."
+                description="An educational website, gamifying the learning experience to aid programmers in comprehending sorting algorithms effectively."
                 demoLink="https://sortingalgorithmgame.web.app/"
                 githubLink="https://github.com/HenryCZhang/Sorting-Algorithms-Playground"
               />
@@ -56,30 +102,30 @@ function Projects() {
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={autoGo}
-                isOnlyGithub={true}
+                isGithub={true}
                 title="AutoGo"
-                description="AutoGo is a user-friendly mobile app for automotive rental and leasing, proudly showcasing the power of Ionic App Platform technologies like Ionic Framework, Capacitor, and various plugins."
+                description="User-friendly mobile app for automotive rental and leasing, proudly showcasing the power of Ionic App Platform technologies like Ionic Framework, Capacitor, and various plugins."
                 githubLink="https://github.com/HenryCZhang/AutoGo-Angular"
               />
             </Col>
           </Row>
 
           <Row>
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={motif}
-                imgCenter= "center"
+                imgCenter="center"
                 imgWidth="80%"
-                isOnlyGithub={true}
+                isGithub={true}
                 title="Motif"
-                description="Motif is an iPhone app designed for easy motion sensor data recording. Its versatile applications include crucial functions like structural health monitoring (SHM) in the field of civil engineering."
+                description="An iPhone app designed for easy motion sensor data recording. Its versatile applications include crucial functions like structural health monitoring (SHM) in the field of civil engineering."
                 githubLink="https://github.com/HenryCZhang/Motif"
               />
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
                 imgPath={iot}
-                isOnlyGithub={true}
+                isGithub={true}
                 title="BIM - IOT"
                 description="Utilizing Arduino, this project collects sensor data and stores it in a MySQL database. It's integral to the Structure Monitoring with BIM and IoT methodology, connecting IoT and BIM for bridge beam deflection monitoring."
                 githubLink="https://github.com/HenryCZhang/Arduino-IOT-Sensor-Data-to-MYSQL"
@@ -91,7 +137,7 @@ function Projects() {
                 isDownloadGame={true}
                 isQuickPlay={true}
                 title="Treasure Hunter"
-                description="Treasure Hunter: A C#-powered Unity adventure game, delivering challenges, puzzles, and treasures in stunning visuals. Get ready for an unforgettable gaming journey!"
+                description="Treasure Hunter: C#-powered Unity adventure game, delivering challenges, puzzles, and treasures in stunning visuals. Get ready for an unforgettable gaming journey!"
                 demoLink="https://github.com/soumyajit4419/Plant_AI"
                 downloadLink="https://henry-zhang-uwo.itch.io/treasure-hunter"
                 playLink="https://play.unity.com/mg/other/treasure-hunter-day"
