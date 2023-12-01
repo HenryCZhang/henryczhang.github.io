@@ -24,7 +24,7 @@ function About() {
       <Particle />
       <Container>
         <Row className="about-section1">
-          <Col md={6} className="about-section1-text">
+          <Col md={7} className="about-section1-text">
             <Fade top duration={1500}>
               <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
                 Know Who <strong className="purple">I'M</strong>
