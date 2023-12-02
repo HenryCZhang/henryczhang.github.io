@@ -63,7 +63,7 @@ function Projects() {
                     systems analysis and process innovation.
                   </div>
                 }
-                pdfLink="https://drive.google.com/file/d/1z1oEq7Tvg3_Xi1eW018iStoc7ydDLpBN/view?usp=sharing"
+                pdfLink="https://drive.google.com/drive/folders/1n2Mo2O9ac94MHC_zKsAjhe1uGErGuDbI?usp=sharing"
               />
             </Col>
           </Row>
