@@ -89,7 +89,7 @@ function ProjectCards(props) {
             <Button variant="primary" href={props.pdfLink} target="_blank">
               <FaRegFilePdf style={{ fontSize: "30px", marginBottom: "10px" }} />{" "}
               <br />
-              PDF
+              Doc
             </Button>
           </div>
         ) : (
