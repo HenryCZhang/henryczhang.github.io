@@ -8,6 +8,7 @@ import ReactTooltip from "react-tooltip";
 import wechatContact from "../../Assets/wechatContact.JPG";
 import Fade from "react-reveal/Fade";
 import { createMedia } from "@artsy/fresnel";
+import Image from "react-bootstrap/Image";
 
 const { MediaContextProvider, Media } = createMedia({
   breakpoints: {
@@ -24,45 +25,99 @@ function Home2() {
       <Container>
         <Fade bottom>
           <Row>
-            <Col md={8} className="home-about-description">
-              <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="purple"> INTRODUCE </span> MYSELF
-              </h1>
-              <p className="home-about-body">
-              Emerging expert in bridging the divide between technical and
-                non-technical teams. Proficient in blending IT acumen with
-                business insights to <b className="purple">optimize processes, drive strategic
-                decisions,</b> and <b className="purple">create human-centric solutions</b>. My mission is to
-                create an environment where technology <b className="purple">enhances the human
-                experience,</b> making businesses more <b className="purple">efficient</b> and{" "}
-                <b className="purple">customer-centric</b>.{" "}
-                <br />
-                <br />
-                Currently pursuing my{" "}
-                  <b className="purple">Master of Information</b>{" "}
-                degree at{" "}
-                  <b className="purple">Toronto University, Canada</b>.
-                <br />
-                <br />Completed my{" "}
-                  <b className="purple">Bachelor of Software Engineering</b>{" "}
-                degree at{" "}
-                  <b className="purple">Western University, Canada</b>.
-                <br />
-                <br />
-                My fields of Interest are building new &nbsp;
-                  <b className="purple">
-                    Full Stack Web & Mobile Technologies and Products{" "}
-                  </b>{" "}
-                and also in areas related to{" "}
-                  <b className="purple">Business & Data Analytics</b>.
-                <br />
-                <br />I am fluent in classics like
-                  <b className="purple">
-                    {" "}
-                    JavaScript (TypeScript), HTML, CSS, SQL, and Java</b>.{" "}
-              </p>
+            <Col md={9} className="home-about-description">
+              <h1 style={{ fontSize: "2.6em" }}>Brief Introduction</h1>
+              <h2 className="home-about-body">
+                In the <span className="purple">Information Age</span>, we are drenched with rich information.
+                Yet, without esoteric <span className="purple">data analysis</span> skills, we cannot turn
+                information into useful meaning for our lives.
+              </h2>
+              <Container fluid>
+                <Row className="university-about-box">
+                  <Col md={4} className="university-logo-container">
+                    <Image
+                      src="/Utoronto.png"
+                      width="100%"
+                      height="auto"
+                      fluid
+                      alt="UtorontoLogo"
+                      data-tip
+                      data-for="UofT"
+                    />
+                  </Col>
+                  <Col>
+                    <h3 style={{ textAlign: "center"}}>
+                    Master of {" "}
+                      <span
+                        style={{
+                          borderBottom: "2px solid rgba(197, 115, 230, 0.883)",
+                        }}
+                      >
+                        Information
+                      </span>
+                      </h3>
+                      2023-2025
+                    <ul style={{textAlign:"left", marginTop:"5px", fontSize:"20px"}}>
+                    <li>Requirements Gathering</li>
+                    <li>Business Process Reengineering</li>
+                    <li>Stakeholder Engagement</li>
+                    <li>Systems Analysis for Operational Improvement</li>
+                    </ul>
+                  </Col>
+                </Row>
+                <Row className="university-about-box">
+                  <Col md={4} className="university-logo-container">
+                    <Image
+                      src="/westernLogo.png"
+                      width="100%"
+                      height="auto"
+                      fluid
+                      alt="westernLogo"
+                      data-tip
+                      data-for="UWO"
+                    />
+                  </Col>
+                  <Col className="university-about-text">
+                    <h3 style={{ textAlign: "center" }}>
+                    Bachelor of {" "}
+                      <span
+                        style={{
+                          borderBottom: "2px solid rgba(197, 115, 230, 0.883)",
+                        }}
+                      >
+                        Software Engineering
+                      </span>
+                    </h3>
+                    2019-2023
+                    <ul style={{textAlign:"left", marginTop:"5px", fontSize:"20px"}}>
+                    <li>Requirement Specification + Solution Proposal</li>
+                      <li>Software Design + Development + Documentation</li>
+                      <li>Software Testing + Debugging</li>
+                      <li>Software Development Life Cycle Management</li>
+                      <li>Java, JS (TS), Python, SQL, C++, Git, OS, React, Cloud Computing...</li>
+                    </ul>
+                  </Col>
+                </Row>
+
+                <ReactTooltip
+                  id="UofT"
+                  fontSize="large"
+                  backgroundColor="#c770f0"
+                >
+                  <span style={{ fontSize: "large" }}>Toronto University</span>
+                </ReactTooltip>
+                <ReactTooltip
+                  id="UWO"
+                  fontSize="large"
+                  backgroundColor="#c770f0"
+                >
+                  <span style={{ fontSize: "large" }}>
+                    University of Western Ontario
+                  </span>
+                </ReactTooltip>
+              </Container>
             </Col>
-            <Col md={4} className="myAvtar">
+            <Col md={3} className="myAvtar d-flex align-items-center">
               <Tilt>
                 <div className="myAvtarContainer">
                   <img src={headshot} className="img-fluid" alt="avatar" />

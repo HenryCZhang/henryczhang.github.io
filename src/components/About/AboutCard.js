@@ -32,25 +32,13 @@ function AboutCard() {
               from my background in software development towards a broader
               understanding of information systems management, demonstrating my
               eagerness to explore new facets of the field.
-              {/* <br />
-              <br /> */}
-              {/* Apart from coding, some other activities that I love to do! */}
+        
             </p>
-            {/* <ul>
-              <li className="about-activity">
-                <PiSunHorizonBold /> Spirit Cultivation
-              </li>
-              <li className="about-activity">
-                <GiWeightLiftingUp /> Fitness
-              </li>
-              <li className="about-activity">
-                <HiOutlineMusicalNote /> Music
-              </li>
-            </ul> */}
+   
           </animated.div>
           </blockquote>
           <animated.div style={animated2}>
-            <h4 className="purple">
+            <h4 className="purple" style={{marginTop:"50px"}}>
               "I heard the echo from the valleys and the heart."{" "}
             </h4>
           </animated.div>

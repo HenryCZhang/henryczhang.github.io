@@ -389,8 +389,7 @@ html {
 
 .home-about-description {
   color: white !important;
-  padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-top: 10px !important;
   text-align: center;
 }
 @media (max-width: 375px) {
@@ -400,7 +399,8 @@ html {
 }
 
 .home-about-body {
-  padding-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 1.2em !important;
   text-align: left;
 }
@@ -498,6 +498,37 @@ html {
 .home2-bottom-contact{
   font-size: large;
   font-weight: bold;
+}
+
+.university-about-box{
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  /* vertical-align: middle !important; */
+  border-radius: 5px !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  margin-top: 20px;
+}
+
+.university-about-box:hover{
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+.university-logo-container{
+  /* border: white 2px solid; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.university-logo{
+  transition: all 0.4s ease; /* Add a smooth transition effect */
+}
+.university-logo:hover {
+  transform: scale(1.05); /* Adjust the scale factor as needed */
 }
 
 .social-icons {

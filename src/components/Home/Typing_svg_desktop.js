@@ -154,7 +154,7 @@ function TypingIcon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="550"
-      height="auto"
+      height="100%"
       data-name="Layer 1"
       viewBox="0 0 878.63 483"
     >
