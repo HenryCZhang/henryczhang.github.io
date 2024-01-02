@@ -147,6 +147,7 @@ function TypingIcon() {
       height="240"
       data-name="Layer 1"
       viewBox="0 0 878.63 483"
+      style={{ maxWidth: '100%' }} 
     >
       <path
         fill="#f1f1f1"

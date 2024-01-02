@@ -2,15 +2,6 @@ import React from "react";
 import { animated, useSpring, useSprings } from "react-spring";
 import { createMedia } from "@artsy/fresnel"
 
-const { MediaContextProvider, Media } = createMedia({
-  breakpoints: {
-    sm: 375,
-    md: 768,
-    lg: 1024,
-    xl: 1192,
-  },
-})
-
 //Parts
 function Head(props) {
   return (
@@ -157,6 +148,7 @@ function TypingIcon() {
       height="100%"
       data-name="Layer 1"
       viewBox="0 0 878.63 483"
+      style={{ maxWidth: '140%' }} 
     >
       <path
         fill="#f1f1f1"

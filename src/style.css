@@ -294,12 +294,12 @@ html {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 3rem !important;
 }
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -357,6 +357,7 @@ html {
 
 .TypingSVGContainer{
   margin-top: 3em;
+  max-width: 100%;
 }
 
 @media (max-width: 375px) {
@@ -365,17 +366,17 @@ html {
   }
 }
 
-.myAvtar {
+.myAvatar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 3rem !important;
 }
 
-.myAvtar img {
+.myAvatar img {
   border-radius: 50%;
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
+  .myAvatar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
   }
@@ -398,10 +399,10 @@ html {
   }
 }
 
-.home-about-body {
+.home-about-intro {
   margin-top: 40px;
   margin-bottom: 40px;
-  font-size: 1.2em !important;
+  font-size: 1.5em !important;
   text-align: left;
 }
 

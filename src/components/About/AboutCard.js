@@ -21,7 +21,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <animated.div style={animated1}>
-            <p style={{ textAlign: "justify" }}>
+            {/* <p style={{ textAlign: "justify" }}>
               Hi! I am <span className="purple">Henry (Cao) Zhang</span>.
               I consider myself an affable and collaborative individual, with a
               genuine commitment to nurturing enduring professional connections.
@@ -32,13 +32,23 @@ function AboutCard() {
               from my background in software development towards a broader
               understanding of information systems management, demonstrating my
               eagerness to explore new facets of the field.
-        
-            </p>
-   
+            </p> */}
+            <h1 style={{fontSize:"2rem", textAlign:"left"}}>Emerging Business Analyst</h1>
+            <ul style={{fontSize:"1.4rem",textAlign:"left"}}>
+              <li>Understand + Solve business problems</li>
+              <li>Validate business requirements</li>
+              <li>Mediate between IT team + stakeholders</li>
+            </ul>
+            <h1 style={{fontSize:"2rem", textAlign:"left", marginTop:"2rem"}}>Emerging Data Analyst</h1>
+            <ul style={{fontSize:"1.4rem",textAlign:"left"}}>
+              <li>Gather + Process datasets</li>
+              <li>Analyze collected data to unravel business insights </li>
+            </ul>
+
           </animated.div>
           </blockquote>
           <animated.div style={animated2}>
-            <h4 className="purple" style={{marginTop:"50px"}}>
+            <h4 className="purple" style={{marginTop:"4rem"}}>
               "I heard the echo from the valleys and the heart."{" "}
             </h4>
           </animated.div>

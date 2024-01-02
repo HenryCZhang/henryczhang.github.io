@@ -31,10 +31,9 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Fade bottom>
-          <Row>
-            <Col md={9} className="home-about-description">
+            <div md={9} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>Brief Introduction</h1>
-              <h2 className="home-about-body">
+              <h2 className="home-about-intro">
                 In the <span className="purple">Information Age</span>, we are
                 drenched with rich information. Yet, without esoteric{" "}
                 <span className="purple">data analysis</span> skills, we cannot
@@ -42,7 +41,7 @@ function Home2() {
               </h2>
               <Container fluid>
                 <Row className="university-about-box">
-                  <Col md={4} className="university-logo-container">
+                  <Col md={3} className="university-logo-container">
                     <Image
                       src="/Utoronto.png"
                       width="100%"
@@ -64,12 +63,11 @@ function Home2() {
                         Information
                       </span>
                     </h3>
-                    2023-2025
+                    <p style={{fontSize: "1.1rem"}}>2023-2025</p>
                     <ul
                       style={{
                         textAlign: "left",
-                        marginTop: "5px",
-                        fontSize: "20px",
+                        fontSize: "1.3rem",
                       }}
                     >
                       <li>Requirements Gathering</li>
@@ -80,7 +78,7 @@ function Home2() {
                   </Col>
                 </Row>
                 <Row className="university-about-box">
-                  <Col md={4} className="university-logo-container">
+                  <Col md={3} className="university-logo-container">
                     <Image
                       src="/westernLogo.png"
                       width="100%"
@@ -102,12 +100,11 @@ function Home2() {
                         Software Engineering
                       </span>
                     </h3>
-                    2019-2023
+                    <p style={{fontSize: "1.1rem"}}>2019-2023</p>
                     <ul
                       style={{
                         textAlign: "left",
-                        marginTop: "5px",
-                        fontSize: "20px",
+                        fontSize: "1.3rem",
                       }}
                     >
                       <li>Requirement Specification + Solution Proposal</li>
@@ -139,10 +136,9 @@ function Home2() {
                   </span>
                 </ReactTooltip>
               </Container>
-            </Col>
+            </div>
 
-            <Col md={3} className="d-flex align-items-center">
-              {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
+            <div style={{marginBottom:"1rem"}}>
               <animated.div style={animated1}>
                 <div className="TypingSVGContainer">
                   <MediaContextProvider>
@@ -155,14 +151,14 @@ function Home2() {
                   </MediaContextProvider>
                 </div>
               </animated.div>
-            </Col>
-          </Row>
+            </div>
         </Fade>
+        
         <Fade bottom>
           <Row>
             <Col md={12} className="home-about-social">
               <h1>FIND ME ON</h1>
-              <p>
+              <p style={{fontSize:"1.1rem"}}>
                 Feel free to <span className="purple">connect </span>with me
               </p>
               <ul className="home-about-social-links">
