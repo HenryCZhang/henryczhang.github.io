@@ -32,12 +32,12 @@ function Home() {
               <animated.div style={animated1}>
                 <h1>
                   I'M
-                  <strong className="main-name" style={{ fontSize: "60px" }}>
+                  <strong className="gold" style={{ fontSize: "60px" }}>
                     {" "}
                     Cao (Henry) Zhang
                   </strong>
                 </h1>
-                <div style={{ padding: 30, textAlign: "left" }}>
+                <div className="gold" style={{ padding: 30, textAlign: "left" }}>
                   <Type />
                 </div>
               </animated.div>

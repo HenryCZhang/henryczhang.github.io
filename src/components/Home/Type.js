@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 function Type() {
   return (
     <Typewriter
+    className="gold"
       options={{
         strings: [
           "Emerging Business Analyst",

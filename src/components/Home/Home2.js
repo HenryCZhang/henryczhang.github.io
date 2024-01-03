@@ -142,7 +142,6 @@ function Home2() {
             </Col>
 
             <Col md={3} className="d-flex align-items-center">
-              {/* <img src={homeLogo} alt="home pic" className="img-fluid" /> */}
               <animated.div style={animated1}>
                 <div className="TypingSVGContainer">
                   <MediaContextProvider>
