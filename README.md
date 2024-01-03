@@ -2,13 +2,17 @@
   My Portfolio Website
 </h2>
 <h2 align="center">
-View Live Demo 🚀 https://henryczhang.github.io/
+  
+[View Live Demo 🚀](https://henryczhang-github-io.vercel.app/#/)
+
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/device-view.png" />
 </div>
 <h3 align="center">
-  I used the website template from https://github.com/soumyajit4419/Portfolio
+  
+  I used the website template from [soumyajit4419](https://github.com/soumyajit4419/Portfolio)
+  
 </h3>
 
 <br/>
