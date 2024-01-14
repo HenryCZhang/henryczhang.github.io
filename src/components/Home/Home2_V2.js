@@ -7,9 +7,9 @@ import wechatContact from "../../Assets/wechatContact.JPG";
 import Fade from "react-reveal/Fade";
 import { createMedia } from "@artsy/fresnel";
 import Image from "react-bootstrap/Image";
-import TypingIconDesktop from "./Typing_svg_desktop";
-import TypingIconMobile from "./Typing_svg_mobile";
 import { useSpring, animated } from "react-spring";
+import henry_sax from "../../Assets/henry_sax.png";
+import Tilt from 'react-parallax-tilt';
 
 const { MediaContextProvider, Media } = createMedia({
   breakpoints: {
@@ -142,16 +142,19 @@ function Home2() {
 
           <div style={{ marginBottom: "1rem" }}>
             <animated.div style={animated1}>
-              <div className="TypingSVGContainer">
-                <MediaContextProvider>
+<MediaContextProvider>
                   <Media greaterThan="sm">
-                    <TypingIconDesktop />
+                  <Tilt className="myAvatar">
+              <img src={henry_sax} className="img-fluid" style={{width:"40%"}} alt="henry_sax" />
+              </Tilt>
                   </Media>
                   <Media lessThan="lg">
-                    <TypingIconMobile />
+                  <Tilt className="myAvatar">
+              <img src={henry_sax} className="img-fluid" alt="henry_sax" />
+              </Tilt>
                   </Media>
                 </MediaContextProvider>
-              </div>
+           
             </animated.div>
           </div>
         </Fade>

@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 import { BsGithub } from "react-icons/bs";
 import { GiGamepad } from "react-icons/gi";
 import { FaRegFilePdf } from "react-icons/fa";

@@ -12,11 +12,24 @@ import annaLibrary from "../../Assets/Projects/annaLibrary.png";
 import Fade from "react-reveal/Fade";
 import { useSpring, animated } from "react-spring";
 
+import { createMedia } from "@artsy/fresnel";
+import ThinkingIconDesktop from "./Thinking_svg_desktop";
+import ThinkingIconMobile from "./Thinking_svg_mobile";
+
 function Projects() {
   const animated1 = useSpring({
     config: { duration: 1000 },
     from: { opacity: 0, y: -50 },
     to: [{ opacity: 1, y: 0 }],
+  });
+
+  const { MediaContextProvider, Media } = createMedia({
+    breakpoints: {
+      sm: 375,
+      md: 768,
+      lg: 1024,
+      xl: 1192,
+    },
   });
 
   return (
@@ -31,7 +44,7 @@ function Projects() {
             Here are a few projects I've worked on recently.
           </p>
         </animated.div>
-        <Fade bottom duration={1200} delay={200}>
+        <Fade bottom>
           <h4
             style={{
               color: "white",
@@ -67,6 +80,7 @@ function Projects() {
               />
             </Col>
           </Row>
+
           <h4
             style={{
               color: "white",
@@ -144,6 +158,16 @@ function Projects() {
               />
             </Col>
           </Row>
+
+          <MediaContextProvider>
+            <Media greaterThan="sm">
+              <ThinkingIconDesktop />
+            </Media>
+            <Media lessThan="lg">
+              <ThinkingIconMobile />
+            </Media>
+          </MediaContextProvider>
+
         </Fade>
       </Container>
     </Container>
